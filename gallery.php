@@ -47,7 +47,7 @@
 
 					<div class="slide-group">
 						<div class="slide slide-1"><img src="img/tokei1.jpg" alt=""></div>
-						<div class="slide slide-2"><img src=img/tokei2.jpg" alt=""></div>
+						<div class="slide slide-2"><img src="img/tokei2.jpg" alt=""></div>
 						<div class="slide slide-3"><img src="img/tokei3.jpg" alt=""></div>
 						<div class="slide slide-3"><img src="img/tokei4.jpg" alt=""></div>
 					</div>
