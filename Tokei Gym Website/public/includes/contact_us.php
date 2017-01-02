@@ -1,5 +1,14 @@
 			<section id="contact_us">
 
+			<?php
+
+
+			$errors = isset($_SESSION['errors']) ? $_SESSION['errors'] : []; // se ci sono valori relativi agli errori nella $_SESSION superglobal variable li assegno (come array) alla variabile $errors, altrimenti gli assegno un array vuoto.
+			$fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : []; // se l'utente ha inserito valori relativi alla form(fields) nella $_SESSION superglobal variable li assegno (come array) alla variabile $fields, altrimenti gli assegno un array vuoto.
+
+
+			?>
+
 				<div class="contact_us_left_box">
 
 					<div id="getintouch">
@@ -62,22 +71,33 @@
 
 					<h4>Quick Enquiry</h4>
 
-					<form action="" class="awesome-form">
+
+					<!-- Creo il markup per mostrare gli errori -->
+
+					<?php if(!empty($_SESSION['errors'])) : ?>
+
+					<h1><ul><li><?php echo implode('</li><li>', $errors); ?></li></ul></h1>
+
+					<?php endif; ?>	
+
+
+
+					<form action="mail.php" method="post" class="awesome-form">
 
 						<div class="form-left-block">
 
 							<div class="input-group">
-								<input type="text" name="name">
+								<input type="text" name="name" <?php echo isset($fields['name']) ? ' value="' . escape_injection($fields['name']) . '" ' : '' ?> >
 								<label for="name">Your Name</label>
 							</div>
 
 							<div class="input-group">
-								<input type="email" name="email">
+								<input type="email" name="email" <?php echo isset($fields['email']) ? ' value="' . escape_injection($fields['email']) . '" ' : '' ?> >
 								<label for="email">Your Email</label>
 							</div>
 
 							<div class="input-group">
-								<input type="tel" name="phone">
+								<input type="tel" name="phone" <?php echo isset($fields['phone']) ? ' value="' . escape_injection($fields['phone']) . '" ' : '' ?> >
 								<label for="email">Your Phone</label>
 							</div>
 
@@ -86,7 +106,7 @@
 						<div class="form-right-block">
 
 							<div style="margin-bottom: 40px;" class="input-group">
-								<textarea name="message"></textarea>
+								<textarea name="message"><?php echo isset($fields['message']) ? escape_injection($fields['message']) . ' ' : '' ?></textarea>
 								<label for="message">Message</label>
 							</div>
 
@@ -101,5 +121,8 @@
 				</div>
 
 				<div class="clear"></div>
+
+				<?php unset($_SESSION['errors']); ?>
+				<?php unset($_SESSION['fields']); ?>
 
 			</section>

@@ -1,15 +1,17 @@
+<?php require_once("../resources/config.php"); ?>
 <?php require_once("libraries/SWIFTmailer/swift_required.php"); ?>
 
 <?php
 
 $errors = [];
 
-if(isset($_POST['name'], $_POST['email'], $_POST['message'])) {
+if(isset($_POST['name'], $_POST['email'], $_POST['phone'], $_POST['message'])) {
 
 	$fields = [
 
 		'name' => $_POST['name'],
 		'email' => $_POST['email'],
+		'phone' => $_POST['phone'],
 		'message' => $_POST['message']
 
 	];
@@ -20,7 +22,7 @@ if(isset($_POST['name'], $_POST['email'], $_POST['message'])) {
 
 			$errors[] = 'The ' . $field . ' field is required';
 
-			header("Location: index.php");
+			header("Location: index.php#quick_enquiry");
 
 		}
 
@@ -48,7 +50,7 @@ if(isset($_POST['name'], $_POST['email'], $_POST['message'])) {
 		$message = Swift_Message::newInstance()
 
 			// Give the message a subject
-			->setSubject('Message from LilyBayBoutique\'s user "' . $fields['name'] . '" ')
+			->setSubject('Message from Tokei Fitness Centre\'s user "' . $fields['name'] . '" ')
 
 			// Set the From address with an associative array
 			->setFrom(array('paolo.ghidoni82@gmail.com' => 'Paolo Ghidoni'))
@@ -73,7 +75,7 @@ if(isset($_POST['name'], $_POST['email'], $_POST['message'])) {
 		if($result){
 
 			$errors[] = 'Message Sent Successfully!';
-			header("Location: index.php");  // Redirect on same page to show message sent greetings
+			header("Location: index.php#quick_enquiry");  // Redirect on same page to show message sent greetings
 			unset($fields);
 			unset($_POST);
 
@@ -89,7 +91,7 @@ if(isset($_POST['name'], $_POST['email'], $_POST['message'])) {
 } else {
 
 	$errors[] = 'Please fill all the form fields.';
-	header("Location: index.php");
+	header("Location: index.php#quick_enquiry");
 
 }
 
