@@ -43,7 +43,7 @@ if(isset($_POST['name'], $_POST['email'], $_POST['phone'], $_POST['message'])) {
 
 		// Create content
 
-		$content = 'From: ' . $fields['name'] . ' (' . $fields['email'] . ') <p> ' . $fields['message'] . '</p>  ';
+		$content = 'From: ' . $fields['name'] . ' <br> Mail: (' . $fields['email'] . ') <br>' . ' Phone: (' . $fields['phone'] . ') <p>' . $fields['message'] . '</p>  ';
 
 		// Create the message
 

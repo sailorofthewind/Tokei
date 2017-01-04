@@ -85,29 +85,28 @@
 					<form action="mail.php" method="post" class="awesome-form">
 
 						<div class="form-left-block">
-
 							<div class="input-group">
-								<input type="text" name="name" <?php echo isset($fields['name']) ? ' value="' . escape_injection($fields['name']) . '" ' : '' ?> >
 								<label for="name">Your Name</label>
+								<input type="text" name="name" placeholder="YOUR NAME" <?php echo isset($fields['name']) ? ' value="' . escape_injection($fields['name']) . '" ' : '' ?> >
 							</div>
 
 							<div class="input-group">
-								<input type="email" name="email" <?php echo isset($fields['email']) ? ' value="' . escape_injection($fields['email']) . '" ' : '' ?> >
 								<label for="email">Your Email</label>
+								<input type="email" name="email" placeholder="YOUR EMAIL" <?php echo isset($fields['email']) ? ' value="' . escape_injection($fields['email']) . '" ' : '' ?> >
 							</div>
 
 							<div class="input-group">
-								<input type="tel" name="phone" <?php echo isset($fields['phone']) ? ' value="' . escape_injection($fields['phone']) . '" ' : '' ?> >
-								<label for="email">Your Phone</label>
+								<label for="email">Your Phone</label>				
+								<input type="tel" name="phone" placeholder="YOUR PHONE" <?php echo isset($fields['phone']) ? ' value="' . escape_injection($fields['phone']) . '" ' : '' ?> >
 							</div>
 
 						</div>
 
 						<div class="form-right-block">
 
-							<div style="margin-bottom: 40px;" class="input-group">
-								<textarea name="message"><?php echo isset($fields['message']) ? escape_injection($fields['message']) . ' ' : '' ?></textarea>
+							<div class="input-group">
 								<label for="message">Message</label>
+								<textarea name="message" placeholder="YOUR MESSAGE"><?php echo isset($fields['message']) ? escape_injection($fields['message']) . ' ' : '' ?></textarea>
 							</div>
 
 							<div class="input-group">						
@@ -117,6 +116,8 @@
 						</div>
 
 					</form>
+
+				<div class="clear"></div>
 					
 				</div>
 
