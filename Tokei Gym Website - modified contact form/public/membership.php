@@ -2,7 +2,7 @@
 				
 				<div id="memb_options_container">
 
-									<p class="membership_general_info">Select from a range of affordable memberships to suit you and pay a monthly fee to maintain your membership. <br><br>Thats it! <br><br>No joining fees, no minimum contract and no admin fees. Join NOW and get the rest of the month FREE.</p>
+									<p id="membership_general_info">Select from a range of affordable memberships to suit you and pay a monthly fee to maintain your membership. <br><br>Thats it! <br><br>No joining fees, no minimum contract and no admin fees. Join NOW and get the rest of the month FREE.</p>
 
 					<div id="labels_box">
 

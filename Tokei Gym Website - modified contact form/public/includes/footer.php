@@ -22,7 +22,7 @@
 
 				</div>
 
-				<div class="footer_box">
+				<div id="central_footer_box" class="footer_box">
 
 					<a href="https://www.facebook.com/tokeicentre" target="_blank"><img src="img/facebook.png" alt=""></a>
 				
@@ -43,6 +43,8 @@
 						<p>CONTACT</p>
 
 					</a>
+
+					<p id="copyright_footer_mobile">&copy COPYRIGHT 2017</p>
 
 				</div>
 

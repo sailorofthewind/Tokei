@@ -40,34 +40,40 @@ jQuery(document).ready(function() {
 
 // Sticky Navigation
 
+ 
+
 
 jQuery(document).ready(function() {
 
-  var navOffset = jQuery("nav").offset().top;
+  if ( $(window).width() > 800) {      
 
-  jQuery("nav").wrap('<div class="nav-placeholder"></div>');
+    var navOffset = jQuery("nav").offset().top;
 
-  jQuery(".nav-placeholder").height(jQuery("nav").outerHeight());
+    jQuery("nav").wrap('<div class="nav-placeholder"></div>');
 
-  jQuery(window).scroll(function() {
+    jQuery(".nav-placeholder").height(jQuery("nav").outerHeight());
 
-    var scrollPosition = jQuery(window).scrollTop();
+    jQuery(window).scroll(function() {
 
-    if(scrollPosition >= navOffset) {
+      var scrollPosition = jQuery(window).scrollTop();
 
-      jQuery("nav").addClass("fixed");
+      if(scrollPosition >= navOffset) {
 
-    } else {
+        jQuery("nav").addClass("fixed");
 
-      jQuery("nav").removeClass("fixed");
+      } else {
 
-    }
+        jQuery("nav").removeClass("fixed");
 
-    // jQuery("#nav_logo").css({'opacity': .7*scrollVar });
+      }
 
-    jQuery("#nav_logo").css({'opacity':( 0+(scrollPosition-150) )/310});
+      // jQuery("#nav_logo").css({'opacity': .7*scrollVar });
 
-  });
+      jQuery("#nav_logo").css({'opacity':( 0+(scrollPosition-150) )/310});
+
+    });
+
+  }
 
 });
 
@@ -147,37 +153,6 @@ $('.slider').each(function() {              // For every slider
 
 
 
-
-
-
-// Form Labels
-
-
-$(function() {
-
-  $('.awesome-form .input-group input').focusout(function() {
-
-    var text_val = $(this).val();
-
-    if(text_val === "") {
-
-      $(this).removeClass("has-value");
-
-    } else {
-
-      $(this).addClass("has-value");
-
-    }
-
-  });
-
-});
-
-
-
-
-
-
 // Scroll to ID single page
 
 
@@ -198,68 +173,13 @@ $(document).ready(function(){
 
 
 
+// Hide membership_general_info when click on label
 
 
+  $('a.label').on('click', function() {
 
+      $('#membership_general_info').addClass('hide_membership_general_info');
 
-
-
-// Scroll to ID to a different page
-
-
-
-// var jump=function(e) {
-
-//   if (e) {
-
-//     e.preventDefault();
-
-//     var target = $(this).attr("href");
-
-//   } else {
-
-//     var target = location.hash;
-
-//   }
-
-//   $('html,body').animate( {
-
-//     scrollTop: $(target).offset().top
-
-//   },2000,function() {
-
-//     location.hash = target;
-
-//   });
-
-// }
-
-
-// $(document).ready(function() {
-
-//   $('a[href^=#]').bind("click", jump);
-
-//   if (location.hash) {
-
-//     setTimeout(function() {
-
-//       $('html, body').scrollTop(0).show();
-
-//         jump();
-
-//         }, 0);
-
-//   } else {
-
-//     $('html, body').show();
-
-//   }
-
-// });
-
-
-
-
-
+  });
 
 

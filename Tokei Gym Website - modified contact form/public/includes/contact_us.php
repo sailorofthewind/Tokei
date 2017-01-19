@@ -66,8 +66,11 @@
 
 				<div class="clear"></div>
 
+				
 
-				<div id="quick_enquiry">
+				<div id="quick_enquiry"></div>
+
+				<div id="enquiry_wrapper">
 
 					<h4>Quick Enquiry</h4>
 

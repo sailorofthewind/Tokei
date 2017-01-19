@@ -52,6 +52,11 @@
 		<h3>Martial Arts</h3>
 		<p>We have some of the very best martial arts instructors on hand every day. Many of our instructors have national and international coaching experience and a high proportion of these instructors have themselves competed and been successful in competitions at the very highest level. They are now offering their experience to a new generation of martial artists that are destined to be the best in their chosen discipline. In 2004 several members of our Olympic freestyle wrestling club represented their respective countries in the Olympics. We often host the British Judo team; our ladies judo has had representatives at major National and International competitions.</p>
 
+
+		<h3>Facilities</h3>
+		<p>There are separate Male and Female showers and changing rooms with all amenities. We provide towels for a small charge if required. </p>
+
+
 		<h3>Time Out Magazine</h3>
 		<p>We would not want you to read this and think that this is a centre dedicated to crash, bang, wallop, full of blokes with broken noses Timeout Magazine described us in these terms: "....the place is refreshingly free of machismo and elitism. Beginners are welcome and there are plenty of female and junior members."</p>
 

@@ -38,5 +38,5 @@
 			</li><!-- -->
 		</ul>
 
-		<div class="handle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+		<div id="handle"><i class="fa fa-bars" aria-hidden="true"></i></div>
 	</nav>
