@@ -29,11 +29,7 @@
 	<div id="nav_left_section"><a href="index.php#header"><img class="nav_logo_no_header" src="img/logo_white.png" alt=""></a></div>
 
 	<ul>
-		<li><a href="index.php#overview" class="nav-item">OVERVIEW</a></li>
-		<li><a href="index.php#membership" class="nav-item">MEMBERSHIP</a></li>
-		<li><a href="index.php#timetable" class="nav-item">TIMETABLE</a></li>
-		<li><a href="index.php#contact_us" class="nav-item">CONTACT US</a></li>
-		<li><a href="#" class="nav-item">MORE</a>
+		<li><a href="index.php#overview" class="nav-item">OVERVIEW</a></li><!-- --><li><a href="index.php#membership" class="nav-item">MEMBERSHIP</a></li><!-- --><li><a href="index.php#contact_us" class="nav-item">CONTACT US</a></li><!-- --><li><a href="timetable.php" class="nav-item">TIMETABLE</a></li><!-- --><li><a href="#" class="nav-item">MORE</a>
 
 			<div class="nav-content">
 				<div class="nav-sub">

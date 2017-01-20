@@ -605,7 +605,7 @@ nav ul {
 
 
 #timetable {
-	padding: 140px 0px 140px 0px;
+	padding: 70px 0px 140px 0px;
 	background-color: #00B1AF;
 	color: white;
 	background-image: url("../img/clock_grey.png");
@@ -1060,123 +1060,6 @@ footer {
 
 
 	header {
-		min-height: 450px;
-	}
-
-	#header_left_box img {
-		height: 12vw;
-		width: 12vw;
-	}
-
-	#header_left_box h1 {
-		font-size: 5vw;
-	}
-
-	#header_box_contact {
-		font-size: 1.5vw;
-	}
-
-	#subscribe_box {
-		width: 250px;
-		height: 250px;
-	}
-
-	#join_btn {
-		margin-top: 10px;
-	}
-
-
-/*---------------------------
---------- NAVIGATION --------*/
-
-
-
-	nav ul {
-		max-height: 0px;
-	}
-
-	nav ul li {
-		box-sizing: border-box;
-		width: 100%;
-		padding: 15px;
-	}
-
-	.visible {
-		max-height: 20em;
-		background-color: rgba(52, 73, 94,0.9);
-	}
-
-	#handle {
-		display: block;
-	}
-
-
-/*---------------------------
---------- TIMETABLE --------*/
-
-	#table_container h3 {
-		text-align: center
-	}
-
-	.schedule table, .schedule thead, .schedule tbody, .schedule th, .schedule td, .schedule tr { 
-		display: block; 
-		text-align: right;
-	}
-
-	.schedule thead tr { 
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-
-	.schedule td { 
-		position: relative;
-		padding-left: 50%;
-		padding-right: 60px;
-		width: 100%;
-	}
-
-	.schedule td[data-th=""] {
-		position: relative;
-		padding-left: 0;
-		width: 100%;
-		text-align: center;
-		padding: 0px 60px 20px 60px;
-	}
-
-	.schedule td[data-th=""] a {
-		background-color: black;
-		color: white;
-		width: 100%;
-	}
-	.schedule td:before { 
-		position: absolute;
-		left: 60px;
-		line-height: 52px;
-	    white-space: nowrap;
-        text-align:left;
-		content: attr(data-th);
-		font-weight: bold;
-	}
-
-
-
-}
-
-
-
-@media screen and (max-width: 480px) {	/* Smartphone */
-
-
-	body {
-    	-webkit-font-smoothing: antialiased;
-	}
-
-
-/*---------------------------
------------ HEADER ---------*/
-
-	header {
 		min-height: auto;
 	}
 
@@ -1223,8 +1106,57 @@ footer {
 	}
 
 
+
+
+
 /*---------------------------
 --------- NAVIGATION --------*/
+
+
+
+/*	nav ul {
+		max-height: 0px;
+	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+	}
+
+	.visible {
+		max-height: 20em;
+		background-color: rgba(52, 73, 94,0.9);
+	}
+
+	#handle {
+		display: block;
+	}
+
+*/
+
+
+	nav ul {
+		max-height: 0px;
+	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+	}
+
+	.visible {
+		max-height: 20em;
+		background-color: rgba(52, 73, 94,0.9);
+	}
+
+	#handle {
+		display: block;
+	}
+
+
+
 
 
 	.nav-placeholder {
@@ -1340,6 +1272,236 @@ footer {
 	}
 
 
+
+/*---------------------------
+--------- TIMETABLE --------*/
+
+	#table_container h3 {
+		text-align: center
+	}
+
+	.schedule table, .schedule thead, .schedule tbody, .schedule th, .schedule td, .schedule tr { 
+		display: block; 
+		text-align: right;
+	}
+
+	.schedule thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	.schedule td { 
+		position: relative;
+		padding-left: 50%;
+		padding-right: 60px;
+		width: 100%;
+	}
+
+	.schedule td[data-th=""] {
+		position: relative;
+		padding-left: 0;
+		width: 100%;
+		text-align: center;
+		padding: 0px 60px 20px 60px;
+	}
+
+	.schedule td[data-th=""] a {
+		background-color: black;
+		color: white;
+		width: 100%;
+	}
+	.schedule td:before { 
+		position: absolute;
+		left: 60px;
+		line-height: 52px;
+	    white-space: nowrap;
+        text-align:left;
+		content: attr(data-th);
+		font-weight: bold;
+	}
+
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {	/* Smartphone */
+
+
+	body {
+    	-webkit-font-smoothing: antialiased;
+	}
+
+
+/*---------------------------
+----------- HEADER ---------*/
+
+/*	header {
+		min-height: auto;
+	}
+
+	#header_left_box {
+		display: none;
+	}
+
+	#header_right_box {
+		position: relative;
+		width: 100%;
+		height: 35vh;
+		margin-top: 70px;
+		overflow: hidden;
+		background-size: 160%;
+	}
+
+	#subscribe_box {
+		background-color: transparent;
+		box-shadow: none;
+	}
+
+	#fees_circle {
+		position: absolute;
+		bottom: -120px;
+		left: 5vw;
+		height: 250px;
+		width: 250px;
+		border-radius: 150px;
+		font-size: 18px;
+	}
+
+	#fees_circle p {
+		margin: 5px;
+	}
+
+	.join_btn {
+		position: absolute;
+		bottom: 10px;
+		left: 5vw;
+		width: 100px;
+		height: 50px;
+		font-size: 14px;
+		margin-left: 73px;
+	}*/
+
+
+/*---------------------------
+--------- NAVIGATION --------*/
+
+
+/*	.nav-placeholder {
+		display: none;
+	}
+	
+	.nav-main {
+		position: fixed;
+		-webkit-transform: translate3d(0, 0, 0);
+		top: 0;
+		width: 100%;
+		z-index: 999;
+	}
+
+	.nav-main ul{
+		width: 100%;
+		background-color: rgba(40, 40, 40,1);
+		position: relative;
+		top: 70px;
+	}
+
+	.nav-main ul li {
+		padding: 0;
+		margin: 0;
+	}
+
+	.nav-main ul li a, .nav-content ul li a {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		font-size: 20px;
+	}
+
+	.nav-main ul li a:hover {
+		border: none;
+		color: white;
+		background-color: rgb(255, 93, 0);
+	}
+
+	.nav-main ul li a:focus {
+		background-color: rgb(255, 93, 0);
+	}
+
+	.nav-main ul li a:active {
+		background-color: rgb(255, 93, 0);
+	}
+
+	.nav-sub {
+		height: 100vh;
+	}
+
+	.nav-sub ul {
+		top: 0;
+		height: 100vh;
+	}
+
+	.nav-content a {	
+		color: white;
+		background-color: rgb(89, 89, 89);
+	}
+
+	.nav-content a:active {
+		background-color: #ffc700 !important;
+	}
+
+	.nav-content a:hover {
+		background-color: #ffc700 !important;
+	}
+
+	.nav-content {
+		position: static;
+		background-color: rgb(89, 89, 89);
+		max-height: 0;
+		box-shadow: 0px 0.5px 1px #aaaaaa;
+		letter-spacing: 5px;
+	}
+
+	.nav-item:focus ~ .nav-content {
+	max-height: 100vh;
+	-webkit-transition: max-height 0.3s ease-in;
+	-moz-transition: max-height 0.3s ease-in;
+	-ms-transition: max-height 0.3s ease-in;
+	-o-transition: max-height 0.3s ease-in;
+	transition: max-height 0.3s ease-in;
+	}
+
+	.nav-content:active {
+		max-height: 100vh;
+	}
+
+	.nav-content:focus {
+		max-height: 100vh;
+	}
+
+	#nav_left_section {
+		width: 0;
+	}
+
+	#handle {
+		position: absolute;
+		left: 20px;
+		top: 20px;
+	}
+
+	#handle i {
+		font-size: 30px;
+	}
+
+	.visible {
+		max-height: 100vh;
+	}
+*/
+
 /*---------------------------
 --------- OVERVIEW --------*/	
 
@@ -1366,6 +1528,23 @@ footer {
 
 	#gym_circle, #gym_title, #martial_arts_circle, #martial_arts_title {
 		float: none;
+	}
+
+
+/*---------------------------
+--------- TIMETABLE --------*/
+
+
+	.schedule td { 
+		padding-right: 30px;
+	}
+
+	.schedule td[data-th=""] {
+		padding: 0px 30px 20px 30px;
+	}
+
+	.schedule td:before { 
+		left: 30px;
 	}
 
 

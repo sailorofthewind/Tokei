@@ -14,7 +14,7 @@
 	<div id="nav_left_section"><a href="index.php#header"><img img id="nav_logo" src="img/logo_white.png" alt=""></a></div>
 
 	<ul>
-		<li><a href="#overview" class="nav-item">OVERVIEW</a></li><!-- --><li><a href="#membership" class="nav-item">MEMBERSHIP</a></li><!-- --><li><a href="#timetable" class="nav-item">TIMETABLE</a></li><!-- --><li><a href="#contact_us" class="nav-item">CONTACT US</a></li><!-- --><li><a href="#" class="nav-item">MORE</a>
+		<li><a href="#overview" class="nav-item">OVERVIEW</a></li><!-- --><li><a href="#membership" class="nav-item">MEMBERSHIP</a></li><!-- --><li><a href="#contact_us" class="nav-item">CONTACT US</a></li><!-- --><li><a href="timetable.php" class="nav-item">TIMETABLE</a></li><!-- --><li><a href="#" class="nav-item">MORE</a>
 
 			<div class="nav-content">
 				<div class="nav-sub">
@@ -48,12 +48,6 @@
 
 
 			<?php include "membership.php" ?>
-
-
-			<!--------------- TIMETABLE -------------->
-
-
-			<?php include "includes/timetable.php";  ?>
 
 
 			<!--------------- CONTACT US -------------->

@@ -18,14 +18,14 @@
 
 					array(
 
-						'slug' => "index.php#timetable",
-						'title' => "TIMETABLE"
+						'slug' => "index.php#contact_us",
+						'title' => "CONTACT US"
 					),
 
 					array(
 
-						'slug' => "index.php#contact_us",
-						'title' => "CONTACT US"
+						'slug' => "timetable.php",
+						'title' => "TIMETABLE"
 					),
 
 				);
