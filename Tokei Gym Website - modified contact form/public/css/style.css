@@ -1051,7 +1051,7 @@ footer {
 
 
 
-@media screen and (max-width: 800px) {  /* Tablet */
+@media screen and (max-width: 900px) {  /* Tablet */
 
 
 
@@ -1113,51 +1113,9 @@ footer {
 --------- NAVIGATION --------*/
 
 
-
-/*	nav ul {
-		max-height: 0px;
-	}
-
-	nav ul li {
-		box-sizing: border-box;
-		width: 100%;
-		padding: 15px;
-	}
-
-	.visible {
-		max-height: 20em;
-		background-color: rgba(52, 73, 94,0.9);
-	}
-
-	#handle {
-		display: block;
-	}
-
-*/
-
-
 	nav ul {
 		max-height: 0px;
 	}
-
-	nav ul li {
-		box-sizing: border-box;
-		width: 100%;
-		padding: 15px;
-	}
-
-	.visible {
-		max-height: 20em;
-		background-color: rgba(52, 73, 94,0.9);
-	}
-
-	#handle {
-		display: block;
-	}
-
-
-
-
 
 	.nav-placeholder {
 		display: none;
@@ -1181,6 +1139,8 @@ footer {
 	.nav-main ul li {
 		padding: 0;
 		margin: 0;
+		box-sizing: border-box;
+		width: 100%;
 	}
 
 	.nav-main ul li a, .nav-content ul li a {
@@ -1258,6 +1218,7 @@ footer {
 	}
 
 	#handle {
+		display: block;
 		position: absolute;
 		left: 20px;
 		top: 20px;
@@ -1271,6 +1232,20 @@ footer {
 		max-height: 100vh;
 	}
 
+
+/*---------------------------
+--------- OVERVIEW --------*/	
+
+
+	#overview {
+		padding: 40px 0 60px 0;
+
+	}
+
+	.overview_circle {
+		width: 130px;
+		height: 130px;
+	}
 
 
 /*---------------------------
@@ -1336,190 +1311,13 @@ footer {
 
 
 /*---------------------------
------------ HEADER ---------*/
-
-/*	header {
-		min-height: auto;
-	}
-
-	#header_left_box {
-		display: none;
-	}
-
-	#header_right_box {
-		position: relative;
-		width: 100%;
-		height: 35vh;
-		margin-top: 70px;
-		overflow: hidden;
-		background-size: 160%;
-	}
-
-	#subscribe_box {
-		background-color: transparent;
-		box-shadow: none;
-	}
-
-	#fees_circle {
-		position: absolute;
-		bottom: -120px;
-		left: 5vw;
-		height: 250px;
-		width: 250px;
-		border-radius: 150px;
-		font-size: 18px;
-	}
-
-	#fees_circle p {
-		margin: 5px;
-	}
-
-	.join_btn {
-		position: absolute;
-		bottom: 10px;
-		left: 5vw;
-		width: 100px;
-		height: 50px;
-		font-size: 14px;
-		margin-left: 73px;
-	}*/
-
-
-/*---------------------------
---------- NAVIGATION --------*/
-
-
-/*	.nav-placeholder {
-		display: none;
-	}
-	
-	.nav-main {
-		position: fixed;
-		-webkit-transform: translate3d(0, 0, 0);
-		top: 0;
-		width: 100%;
-		z-index: 999;
-	}
-
-	.nav-main ul{
-		width: 100%;
-		background-color: rgba(40, 40, 40,1);
-		position: relative;
-		top: 70px;
-	}
-
-	.nav-main ul li {
-		padding: 0;
-		margin: 0;
-	}
-
-	.nav-main ul li a, .nav-content ul li a {
-		padding: 0;
-		margin: 0;
-		width: 100%;
-		height: 40px;
-		line-height: 40px;
-		font-size: 20px;
-	}
-
-	.nav-main ul li a:hover {
-		border: none;
-		color: white;
-		background-color: rgb(255, 93, 0);
-	}
-
-	.nav-main ul li a:focus {
-		background-color: rgb(255, 93, 0);
-	}
-
-	.nav-main ul li a:active {
-		background-color: rgb(255, 93, 0);
-	}
-
-	.nav-sub {
-		height: 100vh;
-	}
-
-	.nav-sub ul {
-		top: 0;
-		height: 100vh;
-	}
-
-	.nav-content a {	
-		color: white;
-		background-color: rgb(89, 89, 89);
-	}
-
-	.nav-content a:active {
-		background-color: #ffc700 !important;
-	}
-
-	.nav-content a:hover {
-		background-color: #ffc700 !important;
-	}
-
-	.nav-content {
-		position: static;
-		background-color: rgb(89, 89, 89);
-		max-height: 0;
-		box-shadow: 0px 0.5px 1px #aaaaaa;
-		letter-spacing: 5px;
-	}
-
-	.nav-item:focus ~ .nav-content {
-	max-height: 100vh;
-	-webkit-transition: max-height 0.3s ease-in;
-	-moz-transition: max-height 0.3s ease-in;
-	-ms-transition: max-height 0.3s ease-in;
-	-o-transition: max-height 0.3s ease-in;
-	transition: max-height 0.3s ease-in;
-	}
-
-	.nav-content:active {
-		max-height: 100vh;
-	}
-
-	.nav-content:focus {
-		max-height: 100vh;
-	}
-
-	#nav_left_section {
-		width: 0;
-	}
-
-	#handle {
-		position: absolute;
-		left: 20px;
-		top: 20px;
-	}
-
-	#handle i {
-		font-size: 30px;
-	}
-
-	.visible {
-		max-height: 100vh;
-	}
-*/
-
-/*---------------------------
 --------- OVERVIEW --------*/	
 
-
-	#overview {
-		padding: 40px 0 60px 0;
-
-	}
 
 	.overview_box {
 		float: none;
 		width: 100%;
 		padding: 20px 0 20px 0;
-	}
-
-	.overview_circle {
-		width: 130px;
-		height: 130px;
 	}
 
 	#fitness {
