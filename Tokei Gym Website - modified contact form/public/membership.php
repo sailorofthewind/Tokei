@@ -14,7 +14,7 @@
 								<p>FULL MEMBERSHIP</p>
 							</a>
 							<div class="member_text_wrap">
-								<p class="membership_description">Full Membership<br><br> £450.00 per year <br><br>(or £45.00 per month by standing order, otherwise £50.00)<br><br> 
+								<p class="membership_description">£450.00 per year <br><br>(or £45.00 per month by standing order, otherwise £50.00)<br><br> 
 Includes access to gym facilities and all classes unless otherwise stated, during opening hours.</p>
 							</div>
 						</li>
@@ -26,7 +26,7 @@ Includes access to gym facilities and all classes unless otherwise stated, durin
 								<p>GYM & CLASSES</p>
 							</a>
 							<div class="member_text_wrap">
-								<p class="membership_description">Gym and Classes Membership<br><br> £375.00 per year <br><br>(£37.50 per month by standing order, otherwise £42.50) <br><br>
+								<p class="membership_description">£375.00 per year <br><br>(£37.50 per month by standing order, otherwise £42.50) <br><br>
 Includes the gym and all classes except martial arts classes, during opening hours.</p>
 							</div>
 						</li>
@@ -38,7 +38,7 @@ Includes the gym and all classes except martial arts classes, during opening hou
 								<p>DAYTIME</p>
 							</a>
 							<div class="member_text_wrap">
-								<p class="membership_description">Daytime Membership<br><br> £325.00 per year <br><br>(£32.50 per month by standing order, otherwise £37.50)<br><br> 
+								<p class="membership_description">£325.00 per year <br><br>(£32.50 per month by standing order, otherwise £37.50)<br><br> 
 Includes the gym and all of the classes, unless shaded on the timetable between 6:30am and 6:00pm.</p>
 							</div>
 						</li>
@@ -50,7 +50,7 @@ Includes the gym and all of the classes, unless shaded on the timetable between 
 								<p>OFF - PEAK</p>
 							</a>
 							<div class="member_text_wrap">
-								<p class="membership_description">Off Peak Membership<br><br> £200.00 per year <br><br>(£20.00 per month by standing order, otherwise £25.00)<br><br> From 9:00am until 12:00pm and from 2:00pm until 6:00pm</p>
+								<p class="membership_description">£200.00 per year <br><br>(£20.00 per month by standing order, otherwise £25.00)<br><br> From 9:00am until 12:00pm and from 2:00pm until 6:00pm</p>
 							</div>
 						</li>
 
@@ -61,8 +61,7 @@ Includes the gym and all of the classes, unless shaded on the timetable between 
 								<p>GROUP / CORPORATE</p>
 							</a>
 							<div class="member_text_wrap">
-								<p class="membership_description">Group/Corporate Membership<br><br> 
-This is available to groups of six or more people; please contact us for further details.</p>
+								<p class="membership_description">This is available to groups of six or more people; please contact us for further details.</p>
 							</div>
 						</li>
 
@@ -73,7 +72,7 @@ This is available to groups of six or more people; please contact us for further
 								<p>STUDENT</p>
 							</a>
 							<div class="member_text_wrap">
-								<p class="membership_description">Student Membership<br><br> £350.00 per year <br><br>(£35.00 per month by standing order, otherwise £40.00)<br><br> 
+								<p class="membership_description">£350.00 per year <br><br>(£35.00 per month by standing order, otherwise £40.00)<br><br> 
 This offers full membership at a reduced rate on production of a valid student card and a letter from your college or university.</p>
 							</div>
 						</li>
@@ -85,7 +84,7 @@ This offers full membership at a reduced rate on production of a valid student c
 								<p>DAY MEMBER</p>
 							</a>
 							<div class="member_text_wrap">
-								<p class="membership_description">Day Members<br><br> £10.00 per visit <br><br>
+								<p class="membership_description">£10.00 per visit <br><br>
 You can still use Tokei Fitness Centre to your advantage without becoming a full member. With a day membership you can try any martial arts, lunchtime class or gym!</p>
 							</div>
 						</li>

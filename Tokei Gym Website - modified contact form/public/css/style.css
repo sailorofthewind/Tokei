@@ -469,7 +469,7 @@ nav ul {
 	background-repeat: no-repeat;
 	background-size: 65%;
 	background-position: center 95px;
-	font-size: 1.11vw;
+	font-size: 10px;
 }
 
 #memb_options_container {
@@ -530,7 +530,7 @@ nav ul {
 }
 
 .label:hover p {
-	font-size: 1.39vw;
+	font-size: 12px;
 }
 
 .label:focus .coloured_tab{
@@ -542,7 +542,7 @@ nav ul {
 	height: 70px;
 	line-height: 70px;
 	color: white;
-	font-size: 1.39vw;
+	font-size: 12px;
 	border-radius: 0px 0px 0px 20px;
 	box-shadow: -2px 2px 1px #6b6b6b;
 }
@@ -654,6 +654,7 @@ nav ul {
 .schedule td a {
 	display: inline-block;
 	text-decoration: none;
+	padding: 20px 0 20px 0;
 	color: #3d3d3d;
 	height: 100%;
 	width: 100%;
@@ -1071,7 +1072,7 @@ footer {
 		position: relative;
 		width: 100%;
 		height: 35vh;
-		margin-top: 70px;
+		margin-top: 50px;
 		overflow: hidden;
 		background-size: 160%;
 	}
@@ -1106,9 +1107,6 @@ footer {
 	}
 
 
-
-
-
 /*---------------------------
 --------- NAVIGATION --------*/
 
@@ -1125,6 +1123,7 @@ footer {
 		position: fixed;
 		-webkit-transform: translate3d(0, 0, 0);
 		top: 0;
+		height: 50px;
 		width: 100%;
 		z-index: 999;
 	}
@@ -1133,7 +1132,7 @@ footer {
 		width: 100%;
 		background-color: rgba(40, 40, 40,1);
 		position: relative;
-		top: 70px;
+		top: 50px;
 	}
 
 	.nav-main ul li {
@@ -1221,7 +1220,7 @@ footer {
 		display: block;
 		position: absolute;
 		left: 20px;
-		top: 20px;
+		top: 10px;
 	}
 
 	#handle i {
@@ -1257,7 +1256,7 @@ footer {
 
 	.schedule table, .schedule thead, .schedule tbody, .schedule th, .schedule td, .schedule tr { 
 		display: block; 
-		text-align: right;
+		text-align: left;
 	}
 
 	.schedule thead tr { 
@@ -1268,8 +1267,9 @@ footer {
 
 	.schedule td { 
 		position: relative;
-		padding-left: 50%;
-		padding-right: 60px;
+		padding: 20px 13% 20px 28%;
+		padding-left: ;
+		padding-right: ;
 		width: 100%;
 	}
 
@@ -1285,24 +1285,24 @@ footer {
 		background-color: black;
 		color: white;
 		width: 100%;
+		padding: 20px 0 20px 0;
+		margin-top: 20px;
+
 	}
 	.schedule td:before { 
 		position: absolute;
 		left: 60px;
-		line-height: 52px;
-	    white-space: nowrap;
+		padding: 0px 0 20px 0;
         text-align:left;
 		content: attr(data-th);
 		font-weight: bold;
 	}
 
-
-
 }
 
 
 
-@media screen and (max-width: 480px) {	/* Smartphone */
+@media screen and (max-width: 600px) {	/* Smartphone */
 
 
 	body {
@@ -1330,11 +1330,66 @@ footer {
 
 
 /*---------------------------
+-------- MEMBERSHIP -------*/
+
+
+
+#membership	{
+	padding: 100px 0px 100px 0px;
+	background-color: #e5e5e5;
+	background-image: none;
+	font-size: 10px;
+}
+
+#labels_box {
+	float: none;
+	width: 100%;
+}
+
+.label:focus {
+	margin: 0;
+	border-radius: 0 0px 0 20px;
+	background-color: rgba(255,93,0,1);
+	box-shadow: -6px 4px 4px #939393;
+}
+
+.label:focus ~ .member_text_wrap {
+	max-height: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#membership_general_info {
+	display: none;
+}
+
+.member_text_wrap {
+	position: static;
+	display: block;
+	background-color: rgba(255,93,0,1);
+	border-radius: 0px 0px 20px 20px;
+	box-shadow: -6px 4px 4px #939393;
+	width: 80%;
+	margin: 0px 0 0 20%;
+}
+
+.membership_description {
+	width: 80%;
+	margin-top: 0;
+	padding: 0 10%;
+}
+
+#member_description_box {
+	display: none;
+}
+
+
+/*---------------------------
 --------- TIMETABLE --------*/
 
 
 	.schedule td { 
-		padding-right: 30px;
+		padding-left: 36%;
 	}
 
 	.schedule td[data-th=""] {

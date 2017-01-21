@@ -58,10 +58,10 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Monday</h4></td>
-					<td data-th="TIME"><p>08:00 - 09:00</p></td>
-					<td data-th="CLASS"><h4>Aikido</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Monday</td>
+					<td data-th="TIME">08:00 - 09:00</td>
+					<td data-th="CLASS">Aikido</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -69,19 +69,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Tuesday</h4></td>
-					<td data-th="TIME"><p>07:45 - 08:15</p></td>
-					<td data-th="CLASS"><h4>Metabolic Conditioning</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Tuesday</td>
+					<td data-th="TIME">07:45 - 08:15</td>
+					<td data-th="CLASS">Metabolic Conditioning</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Tuesday</h4></td>
-					<td data-th="TIME"><p>08:30 - 09:30</p></td>
-					<td data-th="CLASS"><h4>Brazilian Jiu Jitsu</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Tuesday</td>
+					<td data-th="TIME">08:30 - 09:30</td>
+					<td data-th="CLASS">Brazilian Jiu Jitsu</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -89,19 +89,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Wednesday</h4></td>
-					<td data-th="TIME"><p>07:00 - 09:00</p></td>
-					<td data-th="CLASS"><h4>Aikido</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Wednesday</td>
+					<td data-th="TIME">07:00 - 09:00</td>
+					<td data-th="CLASS">Aikido</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Wednesday</h4></td>
-					<td data-th="TIME"><p>08:00 - 09:00</p></td>
-					<td data-th="CLASS"><h4>Brazilian Jiu Jitsu</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Wednesday</td>
+					<td data-th="TIME">08:00 - 09:00</td>
+					<td data-th="CLASS">Brazilian Jiu Jitsu</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -109,28 +109,28 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Thursday</h4></td>
-					<td data-th="TIME"><p>07:45 - 08:30</p></td>
-					<td data-th="CLASS"><h4>Flow Yoga</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Thursday</td>
+					<td data-th="TIME">07:45 - 08:30</td>
+					<td data-th="CLASS">Flow Yoga</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Thursday</h4></td>
-					<td data-th="TIME"><p>08:30 - 09:30</p></td>
-					<td data-th="CLASS"><h4>Brazilian Jiu Jitsu</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Thursday</td>
+					<td data-th="TIME">08:30 - 09:30</td>
+					<td data-th="CLASS">Brazilian Jiu Jitsu</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Thursday</h4></td>
-					<td data-th="TIME"><p>10:00 - 11:30</p></td>
-					<td data-th="CLASS"><h4>Met Judo</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Thursday</td>
+					<td data-th="TIME">10:00 - 11:30</td>
+					<td data-th="CLASS">Met Judo</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -138,19 +138,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Friday</h4></td>
-					<td data-th="TIME"><p>07:00 - 07:45</p></td>
-					<td data-th="CLASS"><h4>Warrior Circuits</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Friday</td>
+					<td data-th="TIME">07:00 - 07:45</td>
+					<td data-th="CLASS">Warrior Circuits</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Friday</h4></td>
-					<td data-th="TIME"><p>08:30 - 09:30</p></td>
-					<td data-th="CLASS"><h4>Brazilian Jiu Jitsu</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Friday</td>
+					<td data-th="TIME">08:30 - 09:30</td>
+					<td data-th="CLASS">Brazilian Jiu Jitsu</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -158,19 +158,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Saturday</h4></td>
-					<td data-th="TIME"><p>09:00 - 10:30</p></td>
-					<td data-th="CLASS"><h4>Aikido Iwama Ryu</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Saturday</td>
+					<td data-th="TIME">09:00 - 10:30</td>
+					<td data-th="CLASS">Aikido Iwama Ryu</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Saturday</h4></td>
-					<td data-th="TIME"><p>10:30 - 12:00</p></td>
-					<td data-th="CLASS"><h4>Senior Judo</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Saturday</td>
+					<td data-th="TIME">10:30 - 12:00</td>
+					<td data-th="CLASS">Senior Judo</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -178,19 +178,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Sunday</h4></td>
-					<td data-th="TIME"><p>09:00 - 11:00</p></td>
-					<td data-th="CLASS"><h4>London Aikido</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Sunday</td>
+					<td data-th="TIME">09:00 - 11:00</td>
+					<td data-th="CLASS">London Aikido</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Sunday</h4></td>
-					<td data-th="TIME"><p>11:00 - 12:00</p></td>
-					<td data-th="CLASS"><h4>Junior Karate</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Sunday</td>
+					<td data-th="TIME">11:00 - 12:00</td>
+					<td data-th="CLASS">Junior Karate</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 			</tbody>
@@ -220,19 +220,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Monday</h4></td>
-					<td data-th="TIME"><p>12:15 - 13:00</p></td>
-					<td data-th="CLASS"><h4>Yoga</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Monday</td>
+					<td data-th="TIME">12:15 - 13:00</td>
+					<td data-th="CLASS">Yoga</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Monday</h4></td>
-					<td data-th="TIME"><p>13:00 - 13:45</p></td>
-					<td data-th="CLASS"><h4>Bum Buster</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Monday</td>
+					<td data-th="TIME">13:00 - 13:45</td>
+					<td data-th="CLASS">Bum Buster</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -240,19 +240,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Tuesday</h4></td>
-					<td data-th="TIME"><p>12:15 - 13:00</p></td>
-					<td data-th="CLASS"><h4>Skilled Pilates</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Tuesday</td>
+					<td data-th="TIME">12:15 - 13:00</td>
+					<td data-th="CLASS">Skilled Pilates</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Tuesday</h4></td>
-					<td data-th="TIME"><p>13:00 - 13:45</p></td>
-					<td data-th="CLASS"><h4>Body Blitz</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Tuesday</td>
+					<td data-th="TIME">13:00 - 13:45</td>
+					<td data-th="CLASS">Body Blitz</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 
 				</tr>
 
@@ -260,19 +260,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Wednesday</h4></td>
-					<td data-th="TIME"><p>12:15 - 13:00</p></td>
-					<td data-th="CLASS"><h4>Yoga</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Wednesday</td>
+					<td data-th="TIME">12:15 - 13:00</td>
+					<td data-th="CLASS">Yoga</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Wednesday</h4></td>
-					<td data-th="TIME"><p>13:00 - 13:45</p></td>
-					<td data-th="CLASS"><h4>Boxercise</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Wednesday</td>
+					<td data-th="TIME">13:00 - 13:45</td>
+					<td data-th="CLASS">Boxercise</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -280,19 +280,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Thursday</h4></td>
-					<td data-th="TIME"><p>12:15 - 13:00</p></td>
-					<td data-th="CLASS"><h4>Beachbody</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Thursday</td>
+					<td data-th="TIME">12:15 - 13:00</td>
+					<td data-th="CLASS">Beachbody</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Thursday</h4></td>
-					<td data-th="TIME"><p>13:00 - 13:45</p></td>
-					<td data-th="CLASS"><h4>Fighting Fit circuit</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Thursday</td>
+					<td data-th="TIME">13:00 - 13:45</td>
+					<td data-th="CLASS">Fighting Fit circuit</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -300,19 +300,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Friday</h4></td>
-					<td data-th="TIME"><p>12:15 - 13:00</p></td>
-					<td data-th="CLASS"><h4>Total Knockout</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Friday</td>
+					<td data-th="TIME">12:15 - 13:00</td>
+					<td data-th="CLASS">Total Knockout</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Friday</h4></td>
-					<td data-th="TIME"><p>13:00 - 13:45</p></td>
-					<td data-th="CLASS"><h4>Hatha Yoga</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Friday</td>
+					<td data-th="TIME">13:00 - 13:45</td>
+					<td data-th="CLASS">Hatha Yoga</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -320,10 +320,10 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Saturday</h4></td>
-					<td data-th="TIME"><p>12:00 - 13:30</p></td>
+					<td data-th="DAY">Saturday</td>
+					<td data-th="TIME">12:00 - 13:30</td>
 					<td data-th="CLASS">Olympic Freestyle Wrestling Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, pariatur quaerat suscipit sapiente atque dolores blanditiis ratione magnam ad itaque voluptas aspernatur, unde aperiam earum. At saepe dolorum maiores consectetur?</td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 				
@@ -331,28 +331,28 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Sunday</h4></td>
-					<td data-th="TIME"><p>12:00 - 13:00</p></td>
-					<td data-th="CLASS"><h4>Senior Karate</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Sunday</td>
+					<td data-th="TIME">12:00 - 13:00</td>
+					<td data-th="CLASS">Senior Karate</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Sunday</h4></td>
-					<td data-th="TIME"><p>13:00 - 14:30</p></td>
-					<td data-th="CLASS"><h4>Shotokan Karate</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Sunday</td>
+					<td data-th="TIME">13:00 - 14:30</td>
+					<td data-th="CLASS">Shotokan Karate</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Sunday</h4></td>
-					<td data-th="TIME"><p>11:00 - 12:00</p></td>
-					<td data-th="CLASS"><h4>Junior Karate</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Sunday</td>
+					<td data-th="TIME">11:00 - 12:00</td>
+					<td data-th="CLASS">Junior Karate</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 			</tbody>
@@ -383,10 +383,10 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Saturday</h4></td>
-					<td data-th="TIME"><p>16:00 - 17:45</p></td>
-					<td data-th="CLASS"><h4>San Shou Kuan</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Saturday</td>
+					<td data-th="TIME">16:00 - 17:45</td>
+					<td data-th="CLASS">San Shou Kuan</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -417,19 +417,19 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Monday</h4></td>
-					<td data-th="TIME"><p>18:15 - 20:15</p></td>
-					<td data-th="CLASS"><h4>San Shou Kuan</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Monday</td>
+					<td data-th="TIME">18:15 - 20:15</td>
+					<td data-th="CLASS">San Shou Kuan</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Monday</h4></td>
-					<td data-th="TIME"><p>20:00 - 22:00</p></td>
-					<td data-th="CLASS"><h4>Aikido</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Monday</td>
+					<td data-th="TIME">20:00 - 22:00</td>
+					<td data-th="CLASS">Aikido</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -437,37 +437,37 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Tuesday</h4></td>
-					<td data-th="TIME"><p>17:00 - 18:00</p></td>
-					<td data-th="CLASS"><h4>Junior Judo</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Tuesday</td>
+					<td data-th="TIME">17:00 - 18:00</td>
+					<td data-th="CLASS">Junior Judo</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Tuesday</h4></td>
-					<td data-th="TIME"><p>18:00 - 19:00</p></td>
-					<td data-th="CLASS"><h4>Circuit Training</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Tuesday</td>
+					<td data-th="TIME">18:00 - 19:00</td>
+					<td data-th="CLASS">Circuit Training</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Tuesday</h4></td>
-					<td data-th="TIME"><p>19:00 - 20:00</p></td>
-					<td data-th="CLASS"><h4>Thai Boxing</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Tuesday</td>
+					<td data-th="TIME">19:00 - 20:00</td>
+					<td data-th="CLASS">Thai Boxing</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Tuesday</h4></td>
-					<td data-th="TIME"><p>20:00 - 22:00</p></td>
-					<td data-th="CLASS"><h4>Senior Judo</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Tuesday</td>
+					<td data-th="TIME">20:00 - 22:00</td>
+					<td data-th="CLASS">Senior Judo</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -475,28 +475,28 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Wednesday</h4></td>
-					<td data-th="TIME"><p>18:15 - 19:00</p></td>
-					<td data-th="CLASS"><h4>High Intensity Interval Training</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Wednesday</td>
+					<td data-th="TIME">18:15 - 19:00</td>
+					<td data-th="CLASS">High Intensity Interval Training</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Wednesday</h4></td>
-					<td data-th="TIME"><p>19:00 - 20:00</p></td>
-					<td data-th="CLASS"><h4>Yoga</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Wednesday</td>
+					<td data-th="TIME">19:00 - 20:00</td>
+					<td data-th="CLASS">Yoga</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Wednesday</h4></td>
-					<td data-th="TIME"><p>20:00 - 22:00</p></td>
-					<td data-th="CLASS"><h4>Senior Karate</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Wednesday</td>
+					<td data-th="TIME">20:00 - 22:00</td>
+					<td data-th="CLASS">Senior Karate</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -504,37 +504,37 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Thursday</h4></td>
-					<td data-th="TIME"><p>17:00 - 18:00</p></td>
-					<td data-th="CLASS"><h4>Junior Judo</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Thursday</td>
+					<td data-th="TIME">17:00 - 18:00</td>
+					<td data-th="CLASS">Junior Judo</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Thursday</h4></td>
-					<td data-th="TIME"><p>18:00 - 19:00</p></td>
-					<td data-th="CLASS"><h4>Circuit Training</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Thursday</td>
+					<td data-th="TIME">18:00 - 19:00</td>
+					<td data-th="CLASS">Circuit Training</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Thursday</h4></td>
-					<td data-th="TIME"><p>19:00 - 20:00</p></td>
-					<td data-th="CLASS"><h4>Sanda Fitness</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Thursday</td>
+					<td data-th="TIME">19:00 - 20:00</td>
+					<td data-th="CLASS">Sanda Fitness</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Thursday</h4></td>
-					<td data-th="TIME"><p>20:00 - 22:00</p></td>
-					<td data-th="CLASS"><h4>Wrestling</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Thursday</td>
+					<td data-th="TIME">20:00 - 22:00</td>
+					<td data-th="CLASS">Wrestling</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
@@ -542,28 +542,28 @@
 
 				<tr>
 
-					<td data-th="DAY"><h4>Friday</h4></td>
-					<td data-th="TIME"><p>17:30 - 19:00</p></td>
-					<td data-th="CLASS"><h4>Thai Boxing</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Friday</td>
+					<td data-th="TIME">17:30 - 19:00</td>
+					<td data-th="CLASS">Thai Boxing</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Friday</h4></td>
-					<td data-th="TIME"><p>19:00 - 22:00</p></td>
-					<td data-th="CLASS"><h4>Junior Karate</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Friday</td>
+					<td data-th="TIME">19:00 - 22:00</td>
+					<td data-th="CLASS">Junior Karate</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
 				<tr>
 
-					<td data-th="DAY"><h4>Friday</h4></td>
-					<td data-th="TIME"><p>20:00 - 21:30</p></td>
-					<td data-th="CLASS"><h4>Senior Karate</h4></td>
-					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank"><h4>BOOK</h4></a></td>
+					<td data-th="DAY">Friday</td>
+					<td data-th="TIME">20:00 - 21:30</td>
+					<td data-th="CLASS">Senior Karate</td>
+					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>
 
