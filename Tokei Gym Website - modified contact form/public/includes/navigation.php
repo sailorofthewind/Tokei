@@ -7,6 +7,8 @@
 
 		<div id="nav_left_section"><a href="index.php#header"><img class="nav_logo_no_header" src="img/logo_white.png" alt=""></a></div>
 
+		<img id="mobile_logo" src="img/mobile_logo.png" alt="logo mobile version">
+
 		<ul>
 
 			<?php 

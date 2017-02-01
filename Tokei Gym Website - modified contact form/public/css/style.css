@@ -200,6 +200,15 @@ header {
 	width: 8vw;
 	height: 8vw;
 	opacity: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#mobile_logo {
+	display: none;
+	height: 40px;
+	width: auto;
+	margin-top: 6px;
 }
 
 nav {
@@ -515,14 +524,24 @@ nav ul {
 }
 
 .label p {
-	padding: 0 10%;
+	padding: 0 5% 0 10%;
 	margin: 0;
+	display: inline-block;
 	letter-spacing: 5px;
 	-webkit-transition: color 0.3s, font-size 0.3s;
 	-moz-transition: color 0.3s, font-size 0.3s;
 	-ms-transition: color 0.3s, font-size 0.3s;
 	-o-transition: color 0.3s, font-size 0.3s;
 	transition: color 0.3s, font-size 0.3s;
+}
+
+
+.membership_tab_arrow {
+	width: 15px;
+	height: 15px;
+	float: right;
+	margin: 20px 10px 0 0;
+	display: none;
 }
 
 .label:hover .coloured_tab{
@@ -691,12 +710,24 @@ nav ul {
 	line-height: 150%;
 }
 
-.contact_us_left_box {
-	width: 30%;
+#contact_us h4 {
+	text-align: center;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.contact_us_top_box {
+	width: 100%;
+	text-align: center;
+}
+
+.contact_us_section {
 	float: left;
-	margin: 0 5% 0 0;
-	font-size: 16px;
-	color: #3d3d3d;
+	width: 30%;
+}
+
+.contact_us_central_column {
+	margin: 0 5%;
 }
 
 #getintouch p {
@@ -712,13 +743,13 @@ nav ul {
 #getintouch p.phone:before{
 	content: url(../img/grey_phone.png);
     position: absolute;
-    margin: -2px 0 0 -40px;
+    margin: 2px 0 0 -40px;
 }
 
 #getintouch p.mail:before{
 	content: url(../img/grey_email.png);
     position: absolute;
-    margin: -2px 0 0 -40px;
+    margin: 2px 0 0 -40px;
 }
 
 #getintouch a {
@@ -729,29 +760,17 @@ nav ul {
 	margin: 20px 0 0 0;
 }
 
-#opening_times {
-	margin: 50px 0 0 0;
-}
-
-#opening_times h4 {
-	margin-top: 15px;
-}
-
 #opening_times_table {
 	width: 100%;
+	text-align: center;
 }
 
 #opening_times_table td {
 	width: 50%;
 }
 
-#how_to_find {
-	margin: 50px 0 0 0;
-}
-
-.contact_us_right_box {
-	float: left;
-	width: 65%;
+.map_box {
+	width: 100%;
 }
 
 iframe {
@@ -890,7 +909,7 @@ textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 }
 
 .section_wrapper p {
-	text-align: justify;
+	text-align: ;
 	padding: 0 0 30px 0;
 }
 
@@ -1132,8 +1151,8 @@ footer {
 		width: 100%;
 		background-color: rgba(40, 40, 40,1);
 		position: relative;
-		top: 50px;
-	}
+/*		top: 50px;
+*/	}
 
 	.nav-main ul li {
 		padding: 0;
@@ -1216,6 +1235,13 @@ footer {
 		width: 0;
 	}
 
+
+	#mobile_logo {
+		display: inline-block;
+		height: 40px;
+		width: auto;
+		margin-top: 6px;
+	}
 	#handle {
 		display: block;
 		position: absolute;
@@ -1298,8 +1324,60 @@ footer {
 		font-weight: bold;
 	}
 
-}
 
+/*---------------------------
+--------- CONTACT US --------*/
+
+
+	#contact_us {
+		padding: 80px 0px 100px 0px;
+	}
+
+	.contact_us_section {
+	float: none;
+	width: 80%;
+	margin: 60px auto;
+	}
+
+	#enquiry_wrapper {
+		margin-bottom: 0;
+	}
+
+	.form-left-block, .form-right-block {
+		float: none;
+		width: 100%;
+	}
+
+
+
+/*---------------------------
+--------- FOOTER --------*/	
+
+
+	#footer_wrapper {
+		padding: 60px 0 40px 0;
+	}
+
+	.footer_box {
+		margin: 0;
+		float: none;
+		width: 100%;
+		text-align: center !important;
+	}
+
+	#central_footer_box {
+		display: none;
+	}
+
+	#copyright_footer_mobile {
+		margin: 60px 0 0 0;
+		border-top: 1px solid;
+		font-size: 12px;
+		display: block;
+	}
+
+
+}
 
 
 @media screen and (max-width: 600px) {	/* Smartphone */
@@ -1334,54 +1412,70 @@ footer {
 
 
 
-#membership	{
-	padding: 100px 0px 100px 0px;
-	background-color: #e5e5e5;
-	background-image: none;
-	font-size: 10px;
-}
+	#membership	{
+		padding: 100px 0px 100px 0px;
+		background-color: #e5e5e5;
+		background-image: none;
+		font-size: 10px;
+	}
 
-#labels_box {
-	float: none;
-	width: 100%;
-}
+	#labels_box {
+		float: none;
+		width: 100%;
+	}
 
-.label:focus {
-	margin: 0;
-	border-radius: 0 0px 0 20px;
-	background-color: rgba(255,93,0,1);
-	box-shadow: -6px 4px 4px #939393;
-}
+	.membership_tab_arrow {
+		-webkit-transition: transform 0.4s;
+		-moz-transition: transform 0.4s;
+		-ms-transition: transform 0.4s;
+		-o-transition: transform 0.4s;
+		transition: transform 0.4s;
+	}
 
-.label:focus ~ .member_text_wrap {
-	max-height: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
+	.label:focus {
+		margin: 0;
+		border-radius: 0 0px 0 20px;
+		background-color: rgba(255,93,0,1);
+		box-shadow: -6px 4px 4px #939393;
+	}
 
-#membership_general_info {
-	display: none;
-}
+	.label:focus ~ .member_text_wrap {
+		max-height: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 
-.member_text_wrap {
-	position: static;
-	display: block;
-	background-color: rgba(255,93,0,1);
-	border-radius: 0px 0px 20px 20px;
-	box-shadow: -6px 4px 4px #939393;
-	width: 80%;
-	margin: 0px 0 0 20%;
-}
+	.label:focus > .membership_tab_arrow {
+		 transform: rotate(180deg);
+	}
 
-.membership_description {
-	width: 80%;
-	margin-top: 0;
-	padding: 0 10%;
-}
+	.membership_tab_arrow {
+		display: inline;
+	}
 
-#member_description_box {
-	display: none;
-}
+	#membership_general_info {
+		display: none;
+	}
+
+	.member_text_wrap {
+		position: static;
+		display: block;
+		background-color: rgba(255,93,0,1);
+		border-radius: 0px 0px 20px 20px;
+		box-shadow: -6px 4px 4px #939393;
+		width: 80%;
+		margin: 0px 0 0 20%;
+	}
+
+	.membership_description {
+		width: 80%;
+		margin-top: 0;
+		padding: 0 10%;
+	}
+
+	#member_description_box {
+		display: none;
+	}
 
 
 /*---------------------------
@@ -1399,62 +1493,6 @@ footer {
 	.schedule td:before { 
 		left: 30px;
 	}
-
-
-/*---------------------------
---------- CONTACT US --------*/	
-
-
-	#contact_us {
-		padding: 80px 0 60px 0;
-		text-align: center;
-	}
-
-	.contact_us_left_box, .contact_us_right_box {
-		float: none;
-		width: 100%;
-	}
-
-	#enquiry_wrapper {
-		margin-bottom: 0;
-	}
-
-	iframe {
-		height: 300px;
-	}
-
-	.form-left-block, .form-right-block {
-		float: none;
-		width: 100%;
-	}
-
-
-/*---------------------------
---------- FOOTER --------*/	
-
-
-	#footer_wrapper {
-		padding: 60px 0 40px 0;
-	}
-
-	.footer_box {
-		margin: 0;
-		float: none;
-		width: 100%;
-		text-align: center !important;
-	}
-
-	#central_footer_box {
-		display: none;
-	}
-
-	#copyright_footer_mobile {
-		margin: 60px 0 0 0;
-		border-top: 1px solid;
-		font-size: 12px;
-		display: block;
-	}
-
 
 }
 

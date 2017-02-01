@@ -1,17 +1,19 @@
+<?php
+
+
+$errors = isset($_SESSION['errors']) ? $_SESSION['errors'] : []; // se ci sono valori relativi agli errori nella $_SESSION superglobal variable li assegno (come array) alla variabile $errors, altrimenti gli assegno un array vuoto.
+$fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : []; // se l'utente ha inserito valori relativi alla form(fields) nella $_SESSION superglobal variable li assegno (come array) alla variabile $fields, altrimenti gli assegno un array vuoto.
+
+
+?>
+
 			<section id="contact_us">
 
-			<?php
+				<div class="contact_us_top_box">
 
+					<div id="getintouch" class="contact_us_section">
 
-			$errors = isset($_SESSION['errors']) ? $_SESSION['errors'] : []; // se ci sono valori relativi agli errori nella $_SESSION superglobal variable li assegno (come array) alla variabile $errors, altrimenti gli assegno un array vuoto.
-			$fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : []; // se l'utente ha inserito valori relativi alla form(fields) nella $_SESSION superglobal variable li assegno (come array) alla variabile $fields, altrimenti gli assegno un array vuoto.
-
-
-			?>
-
-				<div class="contact_us_left_box">
-
-					<div id="getintouch">
+						<h4>Contacts</h4>
 
 						<p class="address">
 							Lion Court<br>
@@ -21,11 +23,11 @@
 						</p>
 						<p class="phone"><a href="tel:02074035979">020 74035979</a></p>
 						<p class="mail"><a href="mailto:infomation@tokeicentre.org?subject=Mail from The Tokei Centre" target="_top">infomation@tokeicentre.org</a></p>
-						<a href="https://www.facebook.com/tokeicentre" target="_blank"><img id="facebook_contact_us" src="img/facebook.png" alt=""></a>
+<!-- 						<a href="https://www.facebook.com/tokeicentre" target="_blank"><img id="facebook_contact_us" src="img/facebook.png" alt=""></a> -->
 
 					</div>
 
-					<div id="opening_times">
+					<div id="opening_times" class="contact_us_section contact_us_central_column">
 				
 						<h4>Opening Times</h4>
 
@@ -46,20 +48,14 @@
 
 					</div>
 
-					<div id="how_to_find">
+					<div id="how_to_find" class="contact_us_section">
 
 						<h4>How To Find Us</h4>
 
-						<p style="text-align: justify;">Located south of the river between London Bridge and Tower Bridge in Southwark. Within easy reach of More London and London Bridge station. </p>
+						<p>Located south of the river between London Bridge and Tower Bridge in Southwark. Within easy reach of More London and London Bridge station. </p>
 
 					</div>
 
-
-				</div>
-
-				<div class="contact_us_right_box">
-						
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.525541273848!2d-0.08345008413070744!3d51.50357367963442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603454f48a3a5%3A0x8f896e52b8f8734b!2sTokei+Martial+Arts+and+Fitness+Centre!5e0!3m2!1sen!2suk!4v1481201327336" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 				</div>
 
@@ -85,7 +81,7 @@
 
 
 
-					<form action="mail.php" method="post" class="awesome-form">
+					<form action="mail.php" method="post">
 
 						<div class="form-left-block">
 							<div class="input-group">
@@ -126,7 +122,13 @@
 
 				<div class="clear"></div>
 
-				<?php unset($_SESSION['errors']); ?>
-				<?php unset($_SESSION['fields']); ?>
-
 			</section>
+
+			<div class="map_box">
+					
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.525541273848!2d-0.08345008413070744!3d51.50357367963442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603454f48a3a5%3A0x8f896e52b8f8734b!2sTokei+Martial+Arts+and+Fitness+Centre!5e0!3m2!1sen!2suk!4v1481201327336" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+			</div>
+
+<?php unset($_SESSION['errors']); ?>
+<?php unset($_SESSION['fields']); ?>

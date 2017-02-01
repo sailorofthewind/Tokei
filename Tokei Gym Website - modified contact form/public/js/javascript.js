@@ -4,8 +4,6 @@ $('#handle').on('click', function() {
 
 	$('nav ul').toggleClass('visible');
 
-  $('#handle').toggleClass('dark_backg');
-
 });
 
 

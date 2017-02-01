@@ -12,6 +12,7 @@
 							<a style="margin-top: 0px" href="#" class="label">
 								<div class="coloured_tab"></div>
 								<p>FULL MEMBERSHIP</p>
+								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
 							</a>
 							<div class="member_text_wrap">
 								<p class="membership_description">£450.00 per year <br><br>(or £45.00 per month by standing order, otherwise £50.00)<br><br> 
@@ -22,8 +23,9 @@ Includes access to gym facilities and all classes unless otherwise stated, durin
 
 						<li>
 							<a href="#" class="label">
-								<div class="coloured_tab"></div>								
+								<div class="coloured_tab"></div>					
 								<p>GYM & CLASSES</p>
+								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
 							</a>
 							<div class="member_text_wrap">
 								<p class="membership_description">£375.00 per year <br><br>(£37.50 per month by standing order, otherwise £42.50) <br><br>
@@ -36,6 +38,7 @@ Includes the gym and all classes except martial arts classes, during opening hou
 							<a href="#" class="label">
 								<div class="coloured_tab"></div>
 								<p>DAYTIME</p>
+								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">			
 							</a>
 							<div class="member_text_wrap">
 								<p class="membership_description">£325.00 per year <br><br>(£32.50 per month by standing order, otherwise £37.50)<br><br> 
@@ -46,8 +49,9 @@ Includes the gym and all of the classes, unless shaded on the timetable between 
 
 						<li>
 							<a href="#" class="label">
-								<div class="coloured_tab"></div>								
+								<div class="coloured_tab"></div>				
 								<p>OFF - PEAK</p>
+								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
 							</a>
 							<div class="member_text_wrap">
 								<p class="membership_description">£200.00 per year <br><br>(£20.00 per month by standing order, otherwise £25.00)<br><br> From 9:00am until 12:00pm and from 2:00pm until 6:00pm</p>
@@ -59,6 +63,7 @@ Includes the gym and all of the classes, unless shaded on the timetable between 
 							<a href="#" class="label">
 								<div class="coloured_tab"></div>
 								<p>GROUP / CORPORATE</p>
+								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
 							</a>
 							<div class="member_text_wrap">
 								<p class="membership_description">This is available to groups of six or more people; please contact us for further details.</p>
@@ -70,6 +75,7 @@ Includes the gym and all of the classes, unless shaded on the timetable between 
 							<a href="#" class="label">
 								<div class="coloured_tab"></div>
 								<p>STUDENT</p>
+								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
 							</a>
 							<div class="member_text_wrap">
 								<p class="membership_description">£350.00 per year <br><br>(£35.00 per month by standing order, otherwise £40.00)<br><br> 
@@ -82,6 +88,7 @@ This offers full membership at a reduced rate on production of a valid student c
 							<a href="#" class="label">
 								<div class="coloured_tab"></div>
 								<p>DAY MEMBER</p>
+								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
 							</a>
 							<div class="member_text_wrap">
 								<p class="membership_description">£10.00 per visit <br><br>
