@@ -124,9 +124,11 @@ $fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : []; // se l'utente 
 
 			</section>
 
-			<div class="map_box">
-					
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.525541273848!2d-0.08345008413070744!3d51.50357367963442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603454f48a3a5%3A0x8f896e52b8f8734b!2sTokei+Martial+Arts+and+Fitness+Centre!5e0!3m2!1sen!2suk!4v1481201327336" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<div class="map-wrap">
+
+			    <div class="overlay" onClick="style.pointerEvents='none'"></div><!-- wrap map iframe to turn off mouse scroll and turn it back on on click -->
+
+					<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.525541273848!2d-0.08345008413070744!3d51.50357367963442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603454f48a3a5%3A0x8f896e52b8f8734b!2sTokei+Martial+Arts+and+Fitness+Centre!5e0!3m2!1sen!2suk!4v1481201327336" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 			</div>
 
