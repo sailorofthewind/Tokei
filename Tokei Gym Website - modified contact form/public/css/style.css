@@ -6,11 +6,47 @@ html, body {
 	display: table;
 	height: 100%;
 	width: 100%;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 img {
 	max-width: 100%;
+}
+
+h1 {
+	font-family: 'Bitter', serif;
+	font-size: 1.75rem;
+	line-height: 150%;		
+}
+
+h4 {
+	font-family: 'Bitter', serif;
+	font-size: 1.563rem;
+	line-height: 150%;	
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.font1 {
+	font-family: 'Bitter', serif;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.font2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.font3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	line-height: 24px;
 }
 
 .clear {
@@ -78,9 +114,14 @@ header {
 #header_box_contact {
 	margin: 40px 0px 0px 1vw;
 	text-align: left;
-	font-size: 11px;
 	color: white;
 }
+
+#header_box_contact p {
+	font-size: 0.8125rem;
+	margin-left: 18%;
+}
+
 
 #header_box_contact p.address:before{
 	content: url(../img/white_pin_20px.png);
@@ -131,10 +172,9 @@ header {
 	margin: 0 auto;	
 	margin-top: 8vw;
 	padding-top: 25px;
-	box-shadow: 1px 1px 1px #6b6b6b;
-	text-align: center
+	box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.6);
+	text-align: center;
 }
-
 
 #fees_circle {
 	width: 150px;
@@ -147,31 +187,36 @@ header {
 	font-size: 18px;
 }
 
+.join_btn_wrapper {
+	width: 200px;
+	height: 90px;
+	margin: 15px auto 0px auto;
+}
+
 .join_btn {
 	width: 160px;
 	height: 70px;
 	border-radius: 32px;
 	background-color: #ff5d00;
-	margin-top: 10px;
-	box-shadow: 1px 1px 1px #6b6b6b;
+	box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.6);
 	border: none;
 	cursor: pointer;
 	color: white;
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-weight: bold;
-	-webkit-transition: background-color 0.3s, font-size 0.3s, width 0.3s, height 0.3s, box-shadow 0.3s;
-	-moz-transition: background-color 0.3s, font-size 0.3s, width 0.3s, height 0.3s, box-shadow 0.3s;
-	-ms-transition: background-color 0.3s, font-size 0.3s, width 0.3s, height 0.3s, box-shadow 0.3s;
-	-o-transition: background-color 0.3s, font-size 0.3s, width 0.3s, height 0.3s, box-shadow 0.3s;
-	transition: background-color 0.3s, font-size 0.3s, width 0.3s, height 0.3s, box-shadow 0.3s;
+	-webkit-transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+	transition: all ease-in-out 0.3s;
 }
 
-.join_btn:hover {
-	background-color: #ffb600;
-	font-size: 21px;
+.join_btn_wrapper:hover > .join_btn {
+	font-size: 1.313rem;
 	width: 165px;
 	height: 75px;
-	box-shadow: 2px 2px 4px #6b6b6b;
+	box-shadow: 0px 32px 20px -20px rgba(0,0,0,0.4);
+	transform: translate(0px, -5px);
 }
 
 
@@ -353,10 +398,49 @@ nav ul {
 /*---------------------------
 --------- OVERVIEW --------*/
 
+#arrow-down {
+	height: 50px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#arrow-down a {
+	color: #3d3d3d;
+}
+
+#arrow-down i {
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+}
+ 
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+	40% {-webkit-transform: translateY(-20px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-20px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-20px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-20px);}
+	60% {transform: translateY(-15px);}
+}
 
 
 #overview {
-	padding: 120px 0px 140px 0px;
+	padding: 30px 0px 140px 0px;
 	margin: 0 auto;
 	width: 80%;
 	line-height: 150%;
@@ -381,6 +465,8 @@ nav ul {
 	-o-transition: color 0.3s, font-size 0.3s;
 	transition: color 0.3s, font-size 0.3s;
  	clear: both;
+ 	margin-bottom: 0;
+ 	font-size: 1.563rem;
 }
 
 .overview_box p {
@@ -388,6 +474,7 @@ nav ul {
     -moz-text-align-last: left;
     text-align-last: left;
  	clear: both;
+ 	margin-top: 0;
 }
 
 .overview_circle {
@@ -396,11 +483,16 @@ nav ul {
 	border-radius: 100px;
 	background-color: #e5e5e5;
 	margin: 0px auto;
-	-webkit-transition: background-image 0.3s, background-size 0.3s;
-	-moz-transition: background-image 0.3s, background-size 0.3s;
-	-ms-transition: background-image 0.3s, background-size 0.3s;
-	-o-transition: background-image 0.3s, background-size 0.3s;
-	transition: background-image 0.3s, background-size 0.3s;
+	box-shadow: 3px 5px 5px 0px #3D3D3D;
+	-webkit-transition: background-image 0.3s, background-size 0.3s, box-shadow 0.3s;
+	-moz-transition: background-image 0.3s, background-size 0.3s, box-shadow 0.3s;
+	-ms-transition: background-image 0.3s, background-size 0.3s, box-shadow 0.3s;
+	-o-transition: background-image 0.3s, background-size 0.3s, box-shadow 0.3s;
+	transition: background-image 0.3s, background-size 0.3s, box-shadow 0.3s;
+}
+
+.overview_link:hover .overview_circle {
+	box-shadow: 3px 5px 15px 2px  #3D3D3D;
 }
 
 #gym_circle {
@@ -416,12 +508,7 @@ nav ul {
 	background-size: 95%;
 }
 
-#gym_link:hover #gym_title {
-	color: #00b2b0;
-	font-size: 1.1rem;
-}
-
-#gym_title {
+#gym h4 {
 	float: right;
 }
 
@@ -441,11 +528,6 @@ nav ul {
 	background-size: 90%;
 }
 
-#fitness_link:hover #fitness_title {
-	color: #00b2b0;
-	font-size: 1.1rem;
-}
-
 #martial_arts_circle {
 	background-image: url("../img/m_arts.png");
 	background-size: 120%;
@@ -459,12 +541,12 @@ nav ul {
 	background-size: 130%;
 }
 
-#martial_arts_link:hover #martial_arts_title {
+.overview_link:hover h4 {
 	color: #00b2b0;
-	font-size: 1.1rem;
+	font-size: 1.75rem;	
 }
 
-#martial_arts_title {
+#martial_arts h4 {
 	float: left;
 }
 
@@ -482,7 +564,6 @@ nav ul {
 	background-repeat: no-repeat;
 	background-size: 65%;
 	background-position: center 95px;
-	font-size: 0.85rem;
 }
 
 #memb_options_container {
@@ -531,6 +612,7 @@ nav ul {
 	padding: 0 5% 0 10%;
 	margin: 0;
 	display: inline-block;
+	font-size: 1rem;
 	letter-spacing: 5px;
 	-webkit-transition: color 0.3s, font-size 0.3s;
 	-moz-transition: color 0.3s, font-size 0.3s;
@@ -553,7 +635,7 @@ nav ul {
 }
 
 .label:hover p {
-	font-size: 1rem;
+	font-size: 1.125rem;
 }
 
 .label:focus .coloured_tab{
@@ -565,7 +647,7 @@ nav ul {
 	height: 70px;
 	line-height: 70px;
 	color: white;
-	font-size: 1rem;
+	font-size: 1.125rem;
 	border-radius: 0px 0px 0px 20px;
 	box-shadow: -2px 2px 1px #6b6b6b;
 }
@@ -582,8 +664,6 @@ nav ul {
 	margin: 55px 20%;
 	overflow: hidden;
 	color: white;
-	letter-spacing: 2px;
-	line-height: 20px;
 	z-index: 800;
 }
 
@@ -595,13 +675,11 @@ nav ul {
 	position: absolute;
 	top: 0;
 	left: 35%;
-	width: 60%;
+	width: 65%;
 	margin: 55px 20%;
 	max-height: 0;
 	overflow: hidden;
 	color: white;
-	letter-spacing: 2px;
-	line-height: 20px;
 	z-index: 700;
 }
 
@@ -722,16 +800,18 @@ nav ul {
 
 .contact_us_top_box {
 	width: 100%;
-	text-align: center;
+	text-align: justify;
 }
 
 .contact_us_section {
 	float: left;
 	width: 30%;
+	text-decoration: none;
 }
 
-.contact_us_central_column {
-	margin: 0 5%;
+.contact_us_section a {
+	text-decoration: none;
+	color: blue;
 }
 
 #getintouch p {
@@ -764,13 +844,32 @@ nav ul {
 	margin: 20px 0 0 0;
 }
 
-#opening_times_table {
-	width: 100%;
-	text-align: center;
+#opening_times {
+	text-align: left;
+	margin: 0 5%;
 }
 
-#opening_times_table td {
-	width: 50%;
+#opening_times p {
+	padding: 0 50px;
+}
+
+#times_mon_fri:after {
+	content: '06:30 - 22:00';
+	float: right;
+}
+
+#times_sat:after {
+	content: '09:00 - 18:00';
+	float: right;
+}
+
+#times_sun:after {
+	content: '10:00 - 15:00';
+	float: right;
+}
+
+#how_to_find p {
+	padding: 0 25px;
 }
 
 .map {
@@ -827,8 +926,8 @@ label {
 input, textarea {
 	background: none;
 	border: solid 2px #00b2b0;
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
 	color: #00b2b0;
 	padding: 10px 10px;
 	width: 100%;
@@ -849,21 +948,28 @@ input:focus, input:active {
 	outline: none;
 }
 
+.submit_wrapper {
+	height: 80px;
+	width: 100%;
+	padding-top: 3px;
+}
+
 input[type^=submit] {
 	cursor: pointer;
 	color: white;
-	background-color: #00b2b0;	
-	-webkit-transition: background-color 0.4s, color 0.4s, font-size 0.4s;
-	-moz-transition: background-color 0.4s, color 0.4s, font-size 0.4s;
-	-ms-transition: background-color 0.4s, color 0.4s, font-size 0.4s;
-	-o-transition: background-color 0.4s, color 0.4s, font-size 0.4s;
-	transition: background-color 0.4s, color 0.4s, font-size 0.4s;
+	background-color: #00b2b0;
+	box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.6);
+	-webkit-transition: all ease-in-out 0.4s;
+	-moz-transition: all ease-in-out 0.4s;
+	-ms-transition: all ease-in-out 0.4s;
+	-o-transition: all ease-in-out 0.4s;
+	transition: all ease-in-out 0.4s;
 }
 
-input[type^=submit]:hover {
-	box-shadow: 0 0 3px rgba(0,0,0,0.6);
-	background-color: #00d8d5;
-	font-size: 18px;
+.submit_wrapper:hover > input {
+	box-shadow: 0px 27px 20px -20px rgba(0,0,0,1);
+	transform: translate(0px, -5px);
+	font-size: 1.063rem;
 }
 
 input[type^=submit]:active {
@@ -1414,17 +1520,13 @@ footer {
 		margin: 0;
 	}
 
-	#gym_circle, #gym_title, #martial_arts_circle, #martial_arts_title {
+	#gym_circle, #gym h4, #martial_arts_circle, #martial_arts h4 {
 		float: none;
 	}
 
 
 /*---------------------------
 -------- MEMBERSHIP -------*/
-
-	body {
-		font-size: 0.95rem;
-	}
 
 
 	#membership	{

@@ -6,7 +6,7 @@
 
 	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bitter|Raleway" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/style.css">
 
@@ -57,9 +57,9 @@
 					<p>NO CONTRACT</p>
 				</div>
 
-				<form action="#membership">
-					<button class="join_btn">JOIN NOW</button>
-				</form>
+					<form action="#membership" class="join_btn_wrapper">
+						<button class="join_btn">JOIN NOW</button>
+					</form>
 				
 			</div>
 

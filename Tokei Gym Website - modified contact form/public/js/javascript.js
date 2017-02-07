@@ -181,5 +181,11 @@ $(document).ready(function(){
   });
 
 
+// Hide Bouncing arrow
+
+document.getElementById('more').addEventListener('click', function() {
+    document.getElementById('arrow-down').style.visibility = 'hidden';
+});
+
 
 

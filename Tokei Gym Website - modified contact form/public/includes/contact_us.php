@@ -13,7 +13,7 @@ $fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : []; // se l'utente 
 
 					<div id="getintouch" class="contact_us_section">
 
-						<h4>Contacts</h4>
+						<h4 class="font1">Contacts</h4>
 
 						<p class="address">
 							Lion Court<br>
@@ -27,30 +27,19 @@ $fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : []; // se l'utente 
 
 					</div>
 
-					<div id="opening_times" class="contact_us_section contact_us_central_column">
+					<div id="opening_times" class="contact_us_section">
 				
-						<h4>Opening Times</h4>
+						<h4 class="font1">Opening Times</h4>
 
-						<table id="opening_times_table">
-							<tr>
-								<td>MON-FRI</td>
-								<td>06:30 - 22:00</td>
-							</tr>
-							<tr>
-								<td>SAT</td>
-								<td>09:00 - 18:00</td>
-							</tr>
-							<tr>
-								<td>SUN</td>
-								<td>10:00 - 15:00</td>
-							</tr>
-						</table>
+						<p id="times_mon_fri">MON-FRI</p>
+						<p id="times_sat">SAT</p>
+						<p id="times_sun">SUN</p>
 
 					</div>
 
 					<div id="how_to_find" class="contact_us_section">
 
-						<h4>How To Find Us</h4>
+						<h4 class="font1">How To Find Us</h4>
 
 						<p>Located south of the river between London Bridge and Tower Bridge in Southwark. Within easy reach of More London and London Bridge station. </p>
 
@@ -108,8 +97,10 @@ $fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : []; // se l'utente 
 								<textarea name="message" placeholder="YOUR MESSAGE"><?php echo isset($fields['message']) ? escape_injection($fields['message']) . ' ' : '' ?></textarea>
 							</div>
 
-							<div class="input-group">						
-								<input type="submit" name="submit" value="SUBMIT">
+							<div class="input-group">
+								<div class="submit_wrapper">					
+									<input type="submit" name="submit" value="SUBMIT">
+								</div>	
 							</div>
 
 						</div>

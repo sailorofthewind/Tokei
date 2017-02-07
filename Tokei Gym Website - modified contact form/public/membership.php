@@ -2,14 +2,14 @@
 				
 				<div id="memb_options_container">
 
-									<p id="membership_general_info">Select from a range of affordable memberships to suit you and pay a monthly fee to maintain your membership. <br><br>Thats it! <br><br>No joining fees, no minimum contract and no admin fees. Join NOW and get the rest of the month FREE.</p>
+									<p id="membership_general_info">Select from a range of affordable memberships to suit you and pay a monthly fee to maintain your membership. <br><br>That's it! <br><br>No joining fees, no minimum contract and no admin fees. Join NOW and get the rest of the month FREE.</p>
 
 					<div id="labels_box">
 
 						<ul id="labels_list">
 
 						<li>
-							<a style="margin-top: 0px" href="#" class="label">
+							<a style="margin-top: 0px" href="#membership" class="label">
 								<div class="coloured_tab"></div>
 								<p>FULL MEMBERSHIP</p>
 								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
@@ -22,7 +22,7 @@ Includes access to gym facilities and all classes unless otherwise stated, durin
 
 
 						<li>
-							<a href="#" class="label">
+							<a href="#membership" class="label">
 								<div class="coloured_tab"></div>					
 								<p>GYM & CLASSES</p>
 								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
@@ -35,7 +35,7 @@ Includes the gym and all classes except martial arts classes, during opening hou
 
 
 						<li>
-							<a href="#" class="label">
+							<a href="#membership" class="label">
 								<div class="coloured_tab"></div>
 								<p>DAYTIME</p>
 								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">			
@@ -48,7 +48,7 @@ Includes the gym and all of the classes, unless shaded on the timetable between 
 
 
 						<li>
-							<a href="#" class="label">
+							<a href="#membership" class="label">
 								<div class="coloured_tab"></div>				
 								<p>OFF - PEAK</p>
 								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
@@ -60,7 +60,7 @@ Includes the gym and all of the classes, unless shaded on the timetable between 
 
 				
 						<li>
-							<a href="#" class="label">
+							<a href="#membership" class="label">
 								<div class="coloured_tab"></div>
 								<p>GROUP / CORPORATE</p>
 								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
@@ -72,7 +72,7 @@ Includes the gym and all of the classes, unless shaded on the timetable between 
 
 
 						<li>
-							<a href="#" class="label">
+							<a href="#membership" class="label">
 								<div class="coloured_tab"></div>
 								<p>STUDENT</p>
 								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
@@ -85,7 +85,7 @@ This offers full membership at a reduced rate on production of a valid student c
 
 
 						<li>
-							<a href="#" class="label">
+							<a href="#membership" class="label">
 								<div class="coloured_tab"></div>
 								<p>DAY MEMBER</p>
 								<img class="membership_tab_arrow" src="img/arrow_down.png" alt="arrow down">
