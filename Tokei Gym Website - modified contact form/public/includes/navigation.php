@@ -17,7 +17,7 @@
 					echo "<li><a href='$item[slug]' class='nav-item'>$item[title]</a></li><!-- -->";
 				}
 
-			?><!-- --><li><a href="#" class="nav-item">MORE</a>
+			?><!-- --><li><a id="more" href="#" class="nav-item">MORE</a>
 
 				<div class="nav-content">
 					<div class="nav-sub">

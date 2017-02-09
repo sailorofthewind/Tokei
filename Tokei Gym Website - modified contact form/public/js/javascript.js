@@ -155,7 +155,7 @@ $('.slider').each(function() {              // For every slider
 
 
 $(document).ready(function(){
-  $('a[href^="#"]').on('click',function (e) {
+  $('nav a[href^="#"], #arr-down, #desktop_logo').on('click',function (e) {
       e.preventDefault();
 
       var target = this.hash;
@@ -168,6 +168,12 @@ $(document).ready(function(){
       });
   });
 });
+
+$('#labels_list a').on('click', function(e) {
+    e.preventDefault();
+})
+
+
 
 
 

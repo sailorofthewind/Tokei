@@ -20,10 +20,11 @@ $fields = isset($_SESSION['fields']) ? $_SESSION['fields'] : []; // se l'utente 
 							28 Magdalene Street<br>
 							London<br>
 							SE1 2EN
-						</p>
-						<p class="phone"><a href="tel:02074035979">020 74035979</a></p>
-						<p class="mail"><a href="mailto:infomation@tokeicentre.org?subject=Mail from The Tokei Centre" target="_top">infomation@tokeicentre.org</a></p>
-<!-- 						<a href="https://www.facebook.com/tokeicentre" target="_blank"><img id="facebook_contact_us" src="img/facebook.png" alt=""></a> -->
+						</p><br>
+						<p class="phone"><a href="tel:02074035979">020 74035979</a></p><br>
+						<p class="mail"><a href="mailto:infomation@tokeicentre.org?subject=Mail from The Tokei Centre" target="_top">infomation@tokeicentre.org</a></p><br>
+						<p class="facebook"><a href="https://www.facebook.com/tokeicentre" target="_blank">facebook</a></p>
+
 
 					</div>
 

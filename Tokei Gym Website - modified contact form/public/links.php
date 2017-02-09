@@ -13,7 +13,7 @@
 
 	<link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
 
-	<title>Tokei Fitness Centre</title>
+	<title>Tokei Fitness Centre | links</title>
 </head>
 
 <body>	

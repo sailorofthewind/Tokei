@@ -322,7 +322,7 @@
 
 					<td data-th="DAY">Saturday</td>
 					<td data-th="TIME">12:00 - 13:30</td>
-					<td data-th="CLASS">Olympic Freestyle Wrestling Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, pariatur quaerat suscipit sapiente atque dolores blanditiis ratione magnam ad itaque voluptas aspernatur, unde aperiam earum. At saepe dolorum maiores consectetur?</td>
+					<td data-th="CLASS">Olympic Freestyle Wrestling</td>
 					<td data-th=""><a href="https://book.playenable.com/tokei-fitness-centre" target="_blank">BOOK</a></td>
 					
 				</tr>

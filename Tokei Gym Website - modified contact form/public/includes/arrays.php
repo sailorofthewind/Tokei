@@ -6,7 +6,7 @@
 
 					array(
 
-						'slug' => "index.php#overview",
+						'slug' => "index.php#main",
 						'title' => "OVERVIEW"
 					),
 

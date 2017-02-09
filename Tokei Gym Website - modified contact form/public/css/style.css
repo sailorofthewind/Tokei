@@ -26,26 +26,7 @@ h4 {
 }
 
 p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	line-height: 24px;
-}
-
-.font1 {
-	font-family: 'Bitter', serif;
-	font-size: 24px;
-	line-height: 24px;
-}
-
-.font2 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 20px;
-	line-height: 24px;
-}
-
-.font3 {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 20px;
+	font-size: 1.125rem;
 	line-height: 24px;
 }
 
@@ -779,9 +760,9 @@ nav ul {
 	background-color: black;
 }
 
+
 /*---------------------------
 --------- CONTACT US -------*/
-
 
 
 #contact_us {
@@ -816,6 +797,8 @@ nav ul {
 
 #getintouch p {
 	padding-left: 40px;
+	display: inline-block;
+	margin: 5px 0;
 }
 
 #getintouch p.address:before{
@@ -836,8 +819,19 @@ nav ul {
     margin: 2px 0 0 -40px;
 }
 
+#getintouch p.facebook:before{
+	content: url(../img/facebook_contact.png);
+	position: absolute;
+    margin: 2px 0 0 -40px;
+}
+
 #getintouch a {
 	color: #3d3d3d;
+}
+
+#getintouch a:hover {
+	color: #00B2B0;
+	text-decoration: underline;
 }
 
 #facebook_contact_us {
@@ -846,11 +840,11 @@ nav ul {
 
 #opening_times {
 	text-align: left;
-	margin: 0 5%;
+	padding: 0 5%;
 }
 
 #opening_times p {
-	padding: 0 50px;
+	padding: 0 20px;
 }
 
 #times_mon_fri:after {
@@ -869,7 +863,7 @@ nav ul {
 }
 
 #how_to_find p {
-	padding: 0 25px;
+	padding: 0px 0px 0px 10px;
 }
 
 .map {
@@ -996,8 +990,6 @@ textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 
 
-
-
 /*---------------------------
 ---------- ABOUT ----------*/
 /*			&				*/
@@ -1012,13 +1004,14 @@ textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 
 .section_wrapper {
-	width: 70%;
+	width: 50%;
 	margin: 40px auto 100px;
 	line-height: 150%;
+	text-align: justify;
 }
 
 .section_wrapper h1 {
-	padding: 50px 0px 40px 0px;
+	padding: 50px 0px 20px 0px;
 }
 
 .section_wrapper h3 {
@@ -1028,7 +1021,7 @@ textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 .section_wrapper p {
 	text-align: ;
-	padding: 0 0 30px 0;
+	padding: 0 0 20px 0;
 }
 
 .nav_logo_no_header {
@@ -1038,22 +1031,80 @@ textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 .section_wrapper li {
 	margin: 20px 0 20px 0;
+	padding: 0;
 }
 
 .section_wrapper ul {
-	margin: 0px 0 80px 0;
+	margin: 0px 0 30px 0;
+	padding: 0;
 }
 
 #links a, #rules li {
 	text-decoration: none;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 2px;
 }
+
+#links a {
+	color: #3d3d3d;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#links a:hover {
+	color: #00B2B0;
+	text-decoration: underline;
+}
+
+
+/*---------------------------------
+---------- TESTIMONIALS ----------*/
+
+
+blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 20px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+blockquote:after {
+	color: #ccc;
+	content: close-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-left: 0.25em;
+	vertical-align: -0.6em;
+}
+
+blockquote p {
+	display: inline;
+	padding-top: 10px;
+}
+
+
 
 
 
 /*---------------------------
 ---------- GALLERY ----------*/
 
+
+#gallery .section_wrapper {
+	width: 60%;
+}
 
 
 /* Slider */
@@ -1380,6 +1431,10 @@ footer {
 --------- OVERVIEW --------*/	
 
 
+	#arrow-down {
+		display: none;
+	}
+
 	#overview {
 		padding: 40px 0 60px 0;
 
@@ -1388,6 +1443,75 @@ footer {
 	.overview_circle {
 		width: 130px;
 		height: 130px;
+	}
+
+
+/*---------------------------
+-------- MEMBERSHIP -------*/
+
+
+	#membership	{
+		padding: 100px 0px 100px 0px;
+		background-color: #e5e5e5;
+		background-image: none;
+	}
+
+	#labels_box {
+		float: none;
+		width: 100%;
+	}
+
+	.membership_tab_arrow {
+		-webkit-transition: transform 0.4s;
+		-moz-transition: transform 0.4s;
+		-ms-transition: transform 0.4s;
+		-o-transition: transform 0.4s;
+		transition: transform 0.4s;
+	}
+
+	.label:focus {
+		margin: 0;
+		border-radius: 0 0px 0 20px;
+		background-color: rgba(255,93,0,1);
+		box-shadow: -6px 4px 4px #939393;
+	}
+
+	.label:focus ~ .member_text_wrap {
+		max-height: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.label:focus > .membership_tab_arrow {
+		 transform: rotate(180deg);
+	}
+
+	.membership_tab_arrow {
+		display: inline;
+	}
+
+	#membership_general_info {
+		display: none;
+	}
+
+	.member_text_wrap {
+		position: static;
+		display: block;
+		background-color: rgba(255,93,0,1);
+		border-radius: 0px 0px 20px 20px;
+		box-shadow: -6px 4px 4px #939393;
+		width: 80%;
+		margin: 0px 0 0 20%;
+	}
+
+	.membership_description {
+		width: 80%;
+		margin-top: 0;
+		padding: 0 10%;
+	}
+
+	#member_description_box {
+		display: none;
 	}
 
 
@@ -1452,9 +1576,14 @@ footer {
 	}
 
 	.contact_us_section {
-	float: none;
-	width: 80%;
-	margin: 60px auto;
+		float: none;
+		width: 90%;
+		margin: 60px 0;
+		padding: 0 5%;
+	}
+
+	#getintouch {
+		text-align: left;
 	}
 
 	#enquiry_wrapper {
@@ -1465,6 +1594,30 @@ footer {
 		float: none;
 		width: 100%;
 	}
+
+	#how_to_find p, #opening_times p {
+		padding: 0;
+	}
+
+
+
+/*---------------------------
+---------- ABOUT ----------*/
+/*			&				*/
+/*---------------------------
+---------- RULES ----------*/
+/*			&				*/
+/*---------------------------
+---------- LINKS ----------*/
+/*			&				*/
+/*---------------------------
+---------- GALLERY --------*/
+
+
+.section_wrapper {
+	width: 80%;
+
+}
 
 
 
@@ -1526,80 +1679,6 @@ footer {
 
 
 /*---------------------------
--------- MEMBERSHIP -------*/
-
-
-	#membership	{
-		padding: 100px 0px 100px 0px;
-		background-color: #e5e5e5;
-		background-image: none;
-	}
-
-	#labels_box {
-		float: none;
-		width: 100%;
-	}
-
-	.membership_tab_arrow {
-		-webkit-transition: transform 0.4s;
-		-moz-transition: transform 0.4s;
-		-ms-transition: transform 0.4s;
-		-o-transition: transform 0.4s;
-		transition: transform 0.4s;
-	}
-
-	.label:hover p {
-		font-size: 0.85rem;
-	}
-
-	.label:focus {
-		margin: 0;
-		border-radius: 0 0px 0 20px;
-		background-color: rgba(255,93,0,1);
-		box-shadow: -6px 4px 4px #939393;
-		font-size: 0.85rem;
-	}
-
-	.label:focus ~ .member_text_wrap {
-		max-height: 100%;
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
-
-	.label:focus > .membership_tab_arrow {
-		 transform: rotate(180deg);
-	}
-
-	.membership_tab_arrow {
-		display: inline;
-	}
-
-	#membership_general_info {
-		display: none;
-	}
-
-	.member_text_wrap {
-		position: static;
-		display: block;
-		background-color: rgba(255,93,0,1);
-		border-radius: 0px 0px 20px 20px;
-		box-shadow: -6px 4px 4px #939393;
-		width: 80%;
-		margin: 0px 0 0 20%;
-	}
-
-	.membership_description {
-		width: 80%;
-		margin-top: 0;
-		padding: 0 10%;
-	}
-
-	#member_description_box {
-		display: none;
-	}
-
-
-/*---------------------------
 --------- TIMETABLE --------*/
 
 
@@ -1618,10 +1697,10 @@ footer {
 }
 
 
-@media screen and (max-width: 400px) {	/* Small Screen Smartphone */
+@media screen and (max-width: 450px) {	/* Small Screen Smartphone */
 
 	#membership {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 	}
 
 	.member_text_wrap {
@@ -1630,11 +1709,11 @@ footer {
 	}
 
 	.label p {
-		font-size: 0.6rem;	
+		font-size: 0.55rem;	
 	}
 
 	.label:hover p {
-		font-size: 0.6rem;
+		font-size: 0.55rem;
 	}
 
 	.label:focus {
@@ -1642,8 +1721,29 @@ footer {
 		border-radius: 0 0px 0 20px;
 		background-color: rgba(255,93,0,1);
 		box-shadow: -6px 4px 4px #939393;
-		font-size: 0.6rem;
+		font-size: 0.55rem;
 	}
+
+}
+
+
+@media screen and (min-width: 1450px) {	/* wide screen */
+
+
+/*---------------------------
+--------- HEADER --------*/
+
+
+	#header_left_box_block {
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#header_left_box_block p.phone, #header_left_box_block p.mail, #header_left_box_block p.map {
+		display: inline;
+	}
+
 }
 
 

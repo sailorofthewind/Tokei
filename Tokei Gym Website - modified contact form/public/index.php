@@ -11,12 +11,12 @@
 
 <nav class="nav-main">
 
-	<div id="nav_left_section"><a href="index.php#header"><img img id="nav_logo" src="img/logo_white.png" alt=""></a></div>
+	<div id="nav_left_section"><a id="desktop_logo" href="index.php#header"><img img id="nav_logo" src="img/logo_white.png" alt=""></a></div>
 
 	<img id="mobile_logo" src="img/mobile_logo.png" alt="logo mobile version">
 
 	<ul>
-		<li><a href="#overview" class="nav-item">OVERVIEW</a></li><!-- --><li><a href="#membership" class="nav-item">MEMBERSHIP</a></li><!-- --><li><a href="#contact_us" class="nav-item">CONTACT US</a></li><!-- --><li><a href="timetable.php" class="nav-item">TIMETABLE</a></li><!-- --><li><a id="more" href="#" class="nav-item">MORE</a>
+		<li><a href="#main" class="nav-item">OVERVIEW</a></li><!-- --><li><a href="#membership" class="nav-item">MEMBERSHIP</a></li><!-- --><li><a href="#contact_us" class="nav-item">CONTACT US</a></li><!-- --><li><a href="timetable.php" class="nav-item">TIMETABLE</a></li><!-- --><li><a id="more" href="#" class="nav-item">MORE</a>
 
 			<div class="nav-content">
 				<div class="nav-sub">
@@ -39,7 +39,7 @@
 
 		<section id="main">
 
-		<div id="arrow-down"><a href="#main"><i class="fa fa-angle-down fa-3x" aria-hidden="true"></i></a></div>
+		<div id="arrow-down"><a id="arr-down" href="#main"><i class="fa fa-angle-down fa-3x" aria-hidden="true"></i></a></div>
 
 			<!--------------- OVERVIEW -------------->
 
